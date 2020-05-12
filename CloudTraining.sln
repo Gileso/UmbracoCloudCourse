@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CloudTraining.Web", "CloudTraining.Web\", "{C2F640AC-1787-48AF-B1F6-CDA0ED36406D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4191"
+		Debug.AspNetCompiler.PhysicalPath = "CloudTraining.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4191\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4191"
+		Release.AspNetCompiler.PhysicalPath = "CloudTraining.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4191\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4191"
+		SlnRelativePath = "CloudTraining.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A} = {C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudTraining.Core", "CloudTraining.Core\CloudTraining.Core.csproj", "{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F640AC-1787-48AF-B1F6-CDA0ED36406D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F640AC-1787-48AF-B1F6-CDA0ED36406D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A4762C-1089-48DF-BEB5-0AD3B472AB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DEC06F8-9CD5-4BF5-A511-A5A56EB6CC7D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+git clone https://dev-cloud-giles-maximpact-co-uk.scm.s1.umbraco.io/885b1a30-0e15-426e-857f-e8e22b3e6986.git CloudTraining.Web
